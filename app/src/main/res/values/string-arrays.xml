@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_sections">
+        <item>diseases</item>
+        <item>contact us</item>
+        <item>settings</item>
+        <item>about app</item>
+    </string-array>
+
+    <string-array name="settings">
+        <item>Language</item>
+        <item>Text Color</item>
+    </string-array>
+
+</resources>

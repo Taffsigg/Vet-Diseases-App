@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "vetzwe.animaldiseases"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 2
+        versionName "1.1.b"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // This is important, it will run lint checks but won't abort build
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0-rc02'
+    implementation 'com.android.support:recyclerview-v7:28.0.0-rc02'
+    implementation 'com.android.support:design:28.0.0-rc02'
+    implementation 'com.android.support:cardview-v7:28.0.0-rc02'
+
+    implementation project(':sqlite-asset-helper')
+}

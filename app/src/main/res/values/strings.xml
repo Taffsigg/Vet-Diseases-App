@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Animal Diseases</string>
+
+    <string name="about">Developed by\n\n
+    Vitalis Chigwada\n
+        0772 852 047\n
+        Nkayi Vet Dept Worker\n
+    for Vet Services Zwe</string>
+
+    <string name="licenses">Animal Diseases\n\n
+
+        Vitalis Chigwada\nzimspy007@gmail.com\n0772 852 047
+
+        \n\n
+        This application was developed by Vitalis Chigwada, Nkayi Vet Services for the Vet Dept
+        of Zimbabwe\n
+        The content used in this app was used with permission from the Vet Services Dept from the
+        Depts informational pamphlets.
+        \n\n
+
+    Licenses\n\n</string>
+
+    <string name="copyrt">2019</string>
+
+    <string name="lang_en">en</string>
+    <string name="lang_sn">sn</string>
+    <string name="lang_nde">nde</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sapien
+        metus, semper id ullamcorper sit amet, commodo id velit. Duis in risus sit amet mauris tempor consequat. Fusce suscipit ornare fringilla. Duis facilisis nisi vel eros suscipit, non suscipit sem commodo. Pellentesque vitae risus nunc. Curabitur vitae convallis diam. Phasellus auctor sem massa, eget ullamcorper ligula venenatis vitae. Pellentesque pellentesque sapien sit amet nibh rutrum, ut porttitor tortor posuere. Nulla metus ligula, tristique sed condimentum sit amet, tincidunt a tellus. Nam in imperdiet nisi. Phasellus condimentum enim eu quam aliquet, non tempus felis tincidunt. Duis sed tellus quis risus consectetur pulvinar at sed ex.</string>
+    <string name="db_name">data.db</string>
+</resources>
